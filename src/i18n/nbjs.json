@@ -1,7 +1,7 @@
 {
 	"domain": "nbjs",
 	"supported_languages": [
-		"fr-FR",
+		"nl-NL", "fr-FR",
 	],
 	"locale_data": {
 		"nbjs": {

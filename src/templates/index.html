@@ -20,8 +20,8 @@
         dir="ltr">
     <noscript>
       <div id='noscript'>
-        Jupyter Notebook nécessite JavaScript<br>
-        Merci de l'activer pour continuer.
+        Jupyter Notebook gebruikt JavaScript<br>
+        Activeer JavaScript om verder te gaan.
       </div>
     </noscript>
     <div id="header" role="navigation" aria-label="Top Menu">
@@ -38,7 +38,7 @@
           <img class="current_kernel_logo" alt="Current Kernel Logo" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"/>
         </span>
         <span id="login_widget">
-          <button id="logout" class="btn btn-sm navbar-btn hidden">Se déconnecter</button>
+          <button id="logout" class="btn btn-sm navbar-btn hidden">Logout</button>
         </span>
       </div>
       <div class="header-bar"></div>
@@ -51,7 +51,7 @@
                 <span class="navbar-text">Menu</span>
               </button>
               <p id="kernel_indicator" class="navbar-text indicator_area">
-                <span class="kernel_indicator_name">Noyau</span>
+                <span class="kernel_indicator_name">Kernel</span>
                 <i id="kernel_indicator_icon"></i>
               </p>
               <i id="readonly-indicator" class="navbar-text" title='Ce notebook est en lecture seule'>
@@ -64,21 +64,21 @@
               <span id="notification_area"></span>
               <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                  <li class="dropdown"><a href="#" id="filelink" aria-haspopup="true" aria-controls="file_menu" class="dropdown-toggle" data-toggle="dropdown">Fichier</a>
+                  <li class="dropdown"><a href="#" id="filelink" aria-haspopup="true" aria-controls="file_menu" class="dropdown-toggle" data-toggle="dropdown">Bestand</a>
                     <ul id="file_menu" class="dropdown-menu" role="menu" aria-labelledby="filelink">
                       <li id="new_notebook" class="dropdown-submenu" role="none">
-                        <a href="#" role="menuitem">Nouveau Notebook<span class="sr-only">Toggle Dropdown</span></a>
+                        <a href="#" role="menuitem">Nieuw Notebook<span class="sr-only">Toggle Dropdown</span></a>
                         <ul class="dropdown-menu" id="menu-new-notebook-submenu"></ul>
                       </li>
                       <li id="open_notebook" role="none"
                           title="Ouvre un notebook, charge un module ou un fichier">
-                        <a href="#" role="menuitem">Ouvrir...</a></li>
+                        <a href="#" role="menuitem">Open...</a></li>
                       <!-- <hr/> -->
                       <li class="divider hidden" role="none"></li>
                       <li id="copy_notebook" role="none"
                           title="Ouvrir une copie du contenu de ce notebook et démarrer un nouveau noyau"
                           class="hidden">
-                        <a href="#" role="menuitem">Faire une copie...</a></li>
+                        <a href="#" role="menuitem">Maak een kopie...</a></li>
                       <li id="save_notebook_as" role="none"
                           title="Enregistrer une copie du notebook">
                         <a href="#" role="menuitem">Enregistrer sous...</a></li>
@@ -136,7 +136,7 @@
                         <a href="#" role="menuitem">Fermer et arrêter</a></li>
                     </ul>
                   </li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" id="editlink" data-toggle="dropdown" aria-haspopup="true" aria-controls="edit_menu">Édition</a>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" id="editlink" data-toggle="dropdown" aria-haspopup="true" aria-controls="edit_menu">Edit</a>
                     <ul id="edit_menu" class="dropdown-menu" role="menu" aria-labelledby="editlink">
                       <li id="cut_cell" role="none"><a href="#" role="menuitem">Couper les cellules</a></li>
                       <li id="copy_cell" role="none"><a href="#" role="menuitem">Copier les cellules</a></li>
@@ -211,7 +211,7 @@
                       <li class="divider"></li>
                       <li id="change_cell_type" class="dropdown-submenu"
                           title="Toutes les cellules dans le notebook ont un type de cellule. Par défaut, les nouvelles cellules sont de type 'Code'">
-                        <a href="#">Type de cellule</a>
+                        <a href="#">Cel-type</a>
                         <ul class="dropdown-menu">
                           <li id="to_code"
                               title="Le contenu sera envoyé au noyau pour exécution, et la sortie sera affichée dans le pied de cellule">
@@ -221,7 +221,7 @@
                             <a href="#">Markdown</a></li>
                           <li id="to_raw"
                               title="Le contenu passera par nbconvert qui ne l'altèrera pas">
-                            <a href="#">Texte Brut</a></li>
+                            <a href="#">Ruwe tekst</a></li>
                         </ul>
                       </li>
                       <li class="divider"></li>
@@ -259,35 +259,35 @@
                       </li>
                     </ul>
                   </li>
-                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="kernellink">Noyau</a>
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" id="kernellink">Kernel</a>
                     <ul id="kernel_menu" class="dropdown-menu" aria-labelledby="kernellink">
                       <li id="int_kernel"
                           title="Envoyer l'interruption clavier (CTRL-C) au noyau">
-                        <a href="#">Interrompre</a>
+                        <a href="#">Onderbreek</a>
                       </li>
                       <li id="restart_kernel"
-                          title="Redémarrer le noyau">
-                        <a href="#">Redémarrer</a>
+                          title="Herstart de kernel">
+                        <a href="#">Herstart</a>
                       </li>
                       <li id="restart_clear_output"
-                          title="Redémarrer le noyau et effacer toutes les sorties">
-                        <a href="#">Redémarrer  &amp; effacer les sorties</a>
+                          title="Herstart de kernel en verwijder alle output">
+                        <a href="#">Herstart  &amp; verwijder output</a>
                       </li>
                       <li id="restart_run_all"
-                          title="Redémarrer le noyau et ré-exécuter le notebook">
-                        <a href="#">Redémarrer &amp; tout exécuter</a>
+                          title="Herstart de kernel en voer het hele notebook uit">
+                        <a href="#">Herstart &amp; voer alle cellen uit</a>
                       </li>
                       <li id="reconnect_kernel"
                           title="Reconnecter au noyau">
-                        <a href="#">Reconnecter</a>
+                        <a href="#">Verbind opnieuw</a>
                       </li>
                       <li id="shutdown_kernel"
-                          title="Shutdown the Kernel">
-                        <a href="#">Arrêter</a>
+                          title="Stop de kernel (shutdown)">
+                        <a href="#">Stop</a>
                       </li>
                       <li class="divider"></li>
                       <li id="menu-change-kernel" class="dropdown-submenu">
-                        <a href="#">Changer de noyau</a>
+                        <a href="#">Kies...</a>
                         <ul class="dropdown-menu" id="menu-change-kernel-submenu"></ul>
                       </li>
                     </ul>

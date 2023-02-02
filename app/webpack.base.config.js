@@ -212,7 +212,7 @@ async function main() {
                 writeToDisk: true
             },
             compress: true,
-            port: 8888,
+            port: 8882,
         },
     };
 }

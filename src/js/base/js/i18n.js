@@ -8,7 +8,7 @@ define([
 ], function(Jed) {
     "use strict";
     
-    const translations = require("i18n/fr_FR/LC_MESSAGES/nbjs.po");
+    const translations = require("i18n/nl_NL/LC_MESSAGES/nbjs.po");
     var i18n = new Jed(translations);
     i18n._ = i18n.gettext;
     i18n.msg = i18n; // Just a place holder until the init promise resolves.
