@@ -198,34 +198,33 @@ msgstr "herstart kernel"
 
 #: notebook/static/notebook/js/actions.js:98
 msgid "restart the kernel (no confirmation dialog)"
-msgstr "redémarrer le noyau (sans confirmation)"
+msgstr "herstart de kernel (zonder dialoog)"
 
 #: notebook/static/notebook/js/actions.js:106
 msgid "confirm restart kernel"
-msgstr "confirmer le redémarrage du noyau"
+msgstr "bevestig de kernel-herstart"
 
 #: notebook/static/notebook/js/actions.js:107
 msgid "restart the kernel (with dialog)"
-msgstr "redémarrer le noyau (avec confirmation)"
+msgstr "herstart de kernel (met dialoog)"
 
 #: notebook/static/notebook/js/actions.js:113
 msgid "restart kernel and run all cells"
-msgstr "redémarrer le noyau et exécuter toutes les cellules"
+msgstr "herstart de kernel en voer alle cellen uit"
 
 #: notebook/static/notebook/js/actions.js:114
 msgid ""
 "restart the kernel, then re-run the whole notebook (no confirmation dialog)"
 msgstr ""
-"redémarrer le noyau, et ré-exécuter tout le notebook (sans confirmation)"
+"herstart de kernel en voer het hele notebook uit (zonder dialoog)"
 
 #: notebook/static/notebook/js/actions.js:120
 msgid "confirm restart kernel and run all cells"
-msgstr "confirmer le redémarrage du noyau et l'exécution des cellules"
+msgstr "bevestig de kernel-herstart en het uitvoeren van alle cellen"
 
 #: notebook/static/notebook/js/actions.js:121
 msgid "restart the kernel, then re-run the whole notebook (with dialog)"
-msgstr ""
-"redémarrer le noyau, et ré-exécuter tout le notebook (sans confirmation)"
+msgstr "herstart de kernel en voer het hele notebook uit (met dialoog)"
 
 #: notebook/static/notebook/js/actions.js:127
 msgid "restart kernel and clear output"
@@ -289,7 +288,7 @@ msgstr "ouvrir le mode commande"
 #: notebook/static/notebook/js/actions.js:205
 #: notebook/static/notebook/js/actions.js:206
 msgid "insert image"
-msgstr "insérer une image"
+msgstr "voeg figuur in"
 
 #: notebook/static/notebook/js/actions.js:213
 #: notebook/static/notebook/js/actions.js:214
@@ -314,23 +313,23 @@ msgstr "séparer la cellule au niveau du curseur"
 #: notebook/static/notebook/js/actions.js:245
 #: notebook/static/notebook/js/actions.js:246
 msgid "enter edit mode"
-msgstr "activer le mode d'édition"
+msgstr "activeer edit-mode"
 
 #: notebook/static/notebook/js/actions.js:253
 msgid "select previous cell"
-msgstr "sélectionner la cellule précédente"
+msgstr "selecteer de vorige cell"
 
 #: notebook/static/notebook/js/actions.js:254
 msgid "select cell above"
-msgstr "sélectionner la cellule précédente"
+msgstr "selecteer de cel hierboven "
 
 #: notebook/static/notebook/js/actions.js:265
 msgid "select next cell"
-msgstr "sélectionner la cellule suivante"
+msgstr "selecteer de volgende cel"
 
 #: notebook/static/notebook/js/actions.js:266
 msgid "select cell below"
-msgstr "sélectionner la cellule suivante"
+msgstr "selecteer de cel hieronder"
 
 #: notebook/static/notebook/js/actions.js:277
 msgid "extend selection above"
@@ -693,27 +692,27 @@ msgstr "Créer une nouvelle sauvegarde"
 
 #: notebook/static/notebook/js/actions.js:835
 msgid "download notebook"
-msgstr "télécharger le notebook"
+msgstr "download notebook"
 
 #: notebook/static/notebook/js/actions.js:836
 msgid "Download this notebook"
-msgstr "Télécharger ce notebook"
+msgstr "Download dit notebook"
 
 #: notebook/static/notebook/js/actions.js:835
 msgid "open notebook"
-msgstr "ouvrir un notebook"
+msgstr "open een notebook"
 
 #: notebook/static/notebook/js/actions.js:836
 msgid "Open notebook file"
-msgstr "Ouvrir un fichier notebook"
+msgstr "Open een notebook bestand"
 
 #: notebook/static/notebook/js/actions.js:875
 msgid "share notebook"
-msgstr "partager le notebook"
+msgstr "deel het notebook"
 
 #: notebook/static/notebook/js/actions.js:876
 msgid "Share this notebook"
-msgstr "Partager ce notebook"
+msgstr "Deel dit notebook"
 
 #: notebook/static/notebook/js/cell.js:79
 msgid "Warning: accessing Cell.cm_config directly is deprecated."
@@ -818,7 +817,7 @@ msgstr "L'erreur est : %s"
 
 #: notebook/static/notebook/js/maintoolbar.js:54
 msgid "Run"
-msgstr "Exécuter"
+msgstr "Voer uit"
 
 #: notebook/static/notebook/js/maintoolbar.js:76
 msgid "Code"
@@ -830,7 +829,7 @@ msgstr "Markdown"
 
 #: notebook/static/notebook/js/maintoolbar.js:78
 msgid "Raw NBConvert"
-msgstr "Texte Brut"
+msgstr "Raw NBConvert"
 
 #: notebook/static/notebook/js/maintoolbar.js:79
 msgid "Heading"
@@ -864,7 +863,7 @@ msgstr "Aucun(e)"
 
 #: notebook/static/notebook/js/menubar.js:406
 msgid "No checkpoints"
-msgstr "Pas de point de sauvegarde"
+msgstr "Geen checkpoints"
 
 #: notebook/static/notebook/js/menubar.js:465
 msgid "Opens in a new window"

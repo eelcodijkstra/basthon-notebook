@@ -165,15 +165,15 @@ msgstr "Créer une nouvelle sauvegarde"
 
 #: notebook/templates/notebook.html:93
 msgid "Download this notebook"
-msgstr "Téléchager ce notebook"
+msgstr "Download dit notebook"
 
 #: notebook/templates/notebook.html:876
 msgid "Open notebook file"
-msgstr "Ouvrir un fichier notebook"
+msgstr "Open een notebook bestand"
 
 #: notebook/templates/notebook.html:876
 msgid "Share this notebook"
-msgstr "Partager ce notebook"
+msgstr "Deel dit notebook"
 
 #: notebook/templates/notebook.html:96
 msgid "Revert to Checkpoint"
