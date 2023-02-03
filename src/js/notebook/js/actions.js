@@ -910,7 +910,7 @@ define([
         },
         'switch-theme':{
             cmd: i18n.msg._('switch theme'),
-            help: i18n.msg._("Changer le theme du notebook (dark/light)"),
+            help: i18n.msg._("Verander notebook thema (donker/licht)"),
             icon: 'fa-adjust',
             help_index: 'fzz',
             handler: function (env, event) {

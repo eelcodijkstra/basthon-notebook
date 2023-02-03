@@ -24,7 +24,7 @@ msgstr "Vous demandez une page qui n'existe pas !"
 
 #: notebook/templates/edit.html:37
 msgid "current mode"
-msgstr "mode actuel"
+msgstr "huidige mode"
 
 #: notebook/templates/edit.html:48 notebook/templates/notebook.html:78
 msgid "File"
@@ -57,7 +57,7 @@ msgstr "Zoek"
 
 #: notebook/templates/edit.html:59
 msgid "Find &amp; Replace"
-msgstr "Zoek  &amp; Vervang"
+msgstr "Zoek  &amp; vervang"
 
 #: notebook/templates/edit.html:61
 msgid "Key Map"
