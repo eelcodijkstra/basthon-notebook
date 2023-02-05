@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-08-29 17:49+0200\n"
 "PO-Revision-Date: 2018-09-15 17:55+0200\n"
-"Last-Translator: Jocelyn Delalande <jocelyn@delalande.fr>\n"
+"Last-Translator: Eelco Dijkstra <eelco@infvo.com>\n"
 "Language-Team: \n"
 "Language: nl_NL\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "Hernoem"
 
 #: notebook/templates/edit.html:53 notebook/templates/tree.html:38
 msgid "Download"
-msgstr "DOwnload"
+msgstr "Download"
 
 #: notebook/templates/edit.html:56 notebook/templates/notebook.html:131
 #: notebook/templates/tree.html:41
@@ -57,15 +57,15 @@ msgstr "Zoek"
 
 #: notebook/templates/edit.html:59
 msgid "Find &amp; Replace"
-msgstr "Zoek  &amp; vervang"
+msgstr "Zoek &amp; vervang"
 
 #: notebook/templates/edit.html:61
 msgid "Key Map"
-msgstr "Raccourcis clavier"
+msgstr "Toets codes"
 
 #: notebook/templates/edit.html:62
 msgid "Default"
-msgstr "Par Défaut"
+msgstr "Default"
 
 #: notebook/templates/edit.html:63
 msgid "Sublime Text"
@@ -74,20 +74,19 @@ msgstr "Sublime Text"
 #: notebook/templates/edit.html:68 notebook/templates/notebook.html:159
 #: notebook/templates/tree.html:40
 msgid "View"
-msgstr "Affichage"
+msgstr "Toon"
 
 #: notebook/templates/edit.html:70 notebook/templates/notebook.html:162
 msgid "Show/Hide the logo and notebook title (above menu bar)"
-msgstr "Afficher/Masquer le logo et le titre du notebook (au-dessus de la "
-"barre de menu)"
+msgstr "Toon/verberg logo en notebook titel (boven menubalk)"
 
 #: notebook/templates/edit.html:71 notebook/templates/notebook.html:163
 msgid "Toggle Header"
-msgstr "Afficher/Masquer l'en-tête"
+msgstr "Toon/verberg kop"
 
 #: notebook/templates/edit.html:72 notebook/templates/notebook.html:171
 msgid "Toggle Line Numbers"
-msgstr "Afficher/Masquer les numéros de ligne"
+msgstr "Toon/verberg regelnummers"
 
 #: notebook/templates/edit.html:75
 msgid "Language"
@@ -95,23 +94,23 @@ msgstr "Taal"
 
 #: notebook/templates/error.html:23
 msgid "The error was:"
-msgstr "L'erreur était :"
+msgstr "De fout was:"
 
 #: notebook/templates/login.html:24
 msgid "Password or token:"
-msgstr "Mot de passe ou jeton:"
+msgstr "Wachtwoord of token:"
 
 #: notebook/templates/login.html:26
 msgid "Password:"
-msgstr "Mot de passe :"
+msgstr "Wachtwoord :"
 
 #: notebook/templates/login.html:31
 msgid "Log in"
-msgstr "Se connecter"
+msgstr "Log in"
 
 #: notebook/templates/login.html:39
 msgid "No login available, you shouldn't be seeing this page."
-msgstr "Connexion non disponible, vous ne devriez pas voir cette page."
+msgstr "Geen login beschikbaar, je zou deze pagina niet moeten zien."
 
 #: notebook/templates/logout.html:24
 #, python-format
