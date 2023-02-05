@@ -2,3 +2,4 @@ node_modules/
 build/
 basthon-notebook.tgz
 .DS_Store
+.ipynb-checkpoints/
