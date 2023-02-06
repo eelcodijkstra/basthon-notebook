@@ -256,39 +256,39 @@ msgstr "Coller les cellules &amp; remplacer"
 
 #: notebook/templates/notebook.html:138
 msgid "Delete Cells"
-msgstr "Supprimer les cellules"
+msgstr "Verwijder cellen"
 
 #: notebook/templates/notebook.html:139
 msgid "Undo Delete Cells"
-msgstr "Annuler la suppression des cellules"
+msgstr "Herstel cellen verwijderen"
 
 #: notebook/templates/notebook.html:141
 msgid "Split Cell"
-msgstr "Diviser la cellule"
+msgstr "Splits cel"
 
 #: notebook/templates/notebook.html:142
 msgid "Merge Cell Above"
-msgstr "Fusionner avec la cellule précédente"
+msgstr "Voeg samen met de vorige cel"
 
 #: notebook/templates/notebook.html:143
 msgid "Merge Cell Below"
-msgstr "Fusionner avec la cellule suivante"
+msgstr "Voeg samen met de volgende cel"
 
 #: notebook/templates/notebook.html:145
 msgid "Move Cell Up"
-msgstr "Déplacer la cellule vers le haut"
+msgstr "Verplaats cel omhoog"
 
 #: notebook/templates/notebook.html:146
 msgid "Move Cell Down"
-msgstr "Déplacer la cellule vers le bas"
+msgstr "Verplaats cel omlaag"
 
 #: notebook/templates/notebook.html:148
 msgid "Edit Notebook Metadata"
-msgstr "Éditer les méta-données du notebook"
+msgstr "Edit notebook metadata"
 
 #: notebook/templates/notebook.html:150
 msgid "Find and Replace"
-msgstr "Rechercher et remplacer"
+msgstr "Zoek en vervang"
 
 #: notebook/templates/notebook.html:152
 msgid "Cut Cell Attachments"
@@ -613,11 +613,11 @@ msgstr "Renommer la sélection"
 
 #: notebook/templates/tree.html:37
 msgid "Move selected"
-msgstr "Déplacer la sélection"
+msgstr "Verplaats selectie"
 
 #: notebook/templates/tree.html:37
 msgid "Move"
-msgstr "Déplacer"
+msgstr "Verplaats"
 
 #: notebook/templates/tree.html:38
 msgid "Download selected"

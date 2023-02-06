@@ -115,7 +115,7 @@ msgstr "Edit notebook aanhangsels"
 
 #: notebook/static/base/js/dialog.js:350
 msgid "Edit Cell Attachments"
-msgstr "Modifier les pièces jointes de la cellule"
+msgstr "Edit cel-aanhangsels"
 
 #: notebook/static/base/js/dialog.js:373
 msgid "Select a file to insert."
@@ -161,7 +161,7 @@ msgstr ""
 
 #: notebook/static/notebook/js/about.js:34
 msgid "Cannot find sys_info!"
-msgstr "Impossible de trouver sys_info !"
+msgstr "sys_info niet gevonden!"
 
 #: notebook/static/notebook/js/about.js:38
 msgid "About Jupyter Notebook"
@@ -169,7 +169,7 @@ msgstr "Over Jupyter Notebook"
 
 #: notebook/static/notebook/js/about.js:47
 msgid "unable to contact kernel"
-msgstr "impossible de joindre le noyau"
+msgstr "geen verbinding met kernel"
 
 #: notebook/static/notebook/js/actions.js:69
 msgid "toggle rtl layout"
@@ -226,19 +226,19 @@ msgstr "herstart de kernel en voer het hele notebook uit (met dialoog)"
 
 #: notebook/static/notebook/js/actions.js:127
 msgid "restart kernel and clear output"
-msgstr "redémarrer le noyau, et effacer les sorties"
+msgstr "herstart kernel en verwijder uitvoer"
 
 #: notebook/static/notebook/js/actions.js:128
 msgid "restart the kernel and clear all output (no confirmation dialog)"
-msgstr "redémarrer le noyau et effacer les sorties (sans confirmation)"
+msgstr "herstart kernel en verwijder alle uitvoer (zonder dialoog)"
 
 #: notebook/static/notebook/js/actions.js:134
 msgid "confirm restart kernel and clear output"
-msgstr "confirmer le redémarrage du noyau et l'effacement des sorties"
+msgstr "bevestig herstarten kernel en verwijderen uitvoer"
 
 #: notebook/static/notebook/js/actions.js:135
 msgid "restart the kernel and clear all output (with dialog)"
-msgstr "redémarrer le noyau et effacer les sorties (avec confirmation)"
+msgstr "herstart kernel en verwijder alle uitvoer (met dialoog)"
 
 #: notebook/static/notebook/js/actions.js:142
 #: notebook/static/notebook/js/actions.js:143
@@ -448,19 +448,19 @@ msgstr "effacer la sortie des cellules sélectionnées"
 
 #: notebook/static/notebook/js/actions.js:460
 msgid "move cells down"
-msgstr "déplacer les cellules vers le bas"
+msgstr "verplaats cellen omlaag"
 
 #: notebook/static/notebook/js/actions.js:461
 msgid "move selected cells down"
-msgstr "déplacer les cellules sélectionnées vers le bas"
+msgstr "verplaats geselecteerde cellen omlaag"
 
 #: notebook/static/notebook/js/actions.js:469
 msgid "move cells up"
-msgstr "déplacer les cellules vers le haut"
+msgstr "verplaats cellen omhoog"
 
 #: notebook/static/notebook/js/actions.js:470
 msgid "move selected cells up"
-msgstr "déplacer les cellules sélectionnées vers le haut"
+msgstr "verplaats geselecteerde cellen omhoog"
 
 #: notebook/static/notebook/js/actions.js:478
 #: notebook/static/notebook/js/actions.js:479
@@ -599,22 +599,22 @@ msgstr "ignorer"
 #: notebook/static/notebook/js/actions.js:710
 #: notebook/static/notebook/js/actions.js:711
 msgid "move cursor up"
-msgstr "déplacer le curseur vers le haut"
+msgstr "verplaats de cursor omhoog"
 
 #: notebook/static/notebook/js/actions.js:731
 #: notebook/static/notebook/js/actions.js:732
 msgid "move cursor down"
-msgstr "déplacer le curseur vers le bas"
+msgstr "verplaats de cursor omlaag"
 
 #: notebook/static/notebook/js/actions.js:750
 #: notebook/static/notebook/js/actions.js:751
 msgid "scroll notebook down"
-msgstr "faire défiler le notebook vers le bas"
+msgstr "scroll notebook omlaag"
 
 #: notebook/static/notebook/js/actions.js:760
 #: notebook/static/notebook/js/actions.js:761
 msgid "scroll notebook up"
-msgstr "faire défiler le notebook vers le haut"
+msgstr "scroll notebook omhoog"
 
 #: notebook/static/notebook/js/actions.js:770
 msgid "scroll cell center"
@@ -2057,7 +2057,7 @@ msgstr "Renommer le notebook"
 
 #: notebook/static/tree/js/notebooklist.js:859
 msgid "Move"
-msgstr "Déplacer"
+msgstr "Verplaats"
 
 #: notebook/static/tree/js/notebooklist.js:875
 msgid "An error occurred while renaming \"%1$s\" to \"%2$s\"."
