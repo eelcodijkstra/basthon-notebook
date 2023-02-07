@@ -304,7 +304,7 @@ msgstr "Coller les pièces-jointes de la cellule"
 
 #: notebook/templates/notebook.html:156
 msgid "Insert Image"
-msgstr "Insérer une image"
+msgstr "Voeg een figuur in"
 
 #: notebook/templates/notebook.html:166
 msgid "Show/Hide the action icons (below menu bar)"
@@ -320,31 +320,31 @@ msgstr "Afficher/Masquer les numéros de ligne dans les cellules"
 
 #: notebook/templates/notebook.html:174
 msgid "Cell Toolbar"
-msgstr "Barre d'outil de cellule"
+msgstr "Cel hulpmiddelen"
 
 #: notebook/templates/notebook.html:179
 msgid "Insert"
-msgstr "Insérer"
+msgstr "Voeg in"
 
 #: notebook/templates/notebook.html:182
 msgid "Insert an empty Code cell above the currently active cell"
-msgstr "Insérer une cellule de code vide avant de la cellule active"
+msgstr "Voer een lege code-cel in boven de actieve cel"
 
 #: notebook/templates/notebook.html:183
 msgid "Insert Cell Above"
-msgstr "Insérer une cellule avant"
+msgstr "Voeg een cel hierboven in"
 
 #: notebook/templates/notebook.html:185
 msgid "Insert an empty Code cell below the currently active cell"
-msgstr "Insérer une cellule de code vide après la cellule active"
+msgstr "Voeg een lege code-cel in onder de actieve cel"
 
 #: notebook/templates/notebook.html:186
 msgid "Insert Cell Below"
-msgstr "Insérer une cellule après"
+msgstr "Voeg een cel hieroner in"
 
 #: notebook/templates/notebook.html:189
 msgid "Cell"
-msgstr "Cellule"
+msgstr "Cel"
 
 #: notebook/templates/notebook.html:191
 msgid "Run this cell, and move cursor to the next one"
@@ -364,11 +364,11 @@ msgstr "Exécuter les cellules et sélectionner la suivante"
 
 #: notebook/templates/notebook.html:195
 msgid "Run this cell, insert below"
-msgstr "Exécuter la cellule et insérer à la suite"
+msgstr "Voer deze cel uit en voeg eronder in"
 
 #: notebook/templates/notebook.html:196
 msgid "Run Cells and Insert Below"
-msgstr "Exécuter les cellules et insérer après"
+msgstr "Voer de cellen uit en voeg daaronder in"
 
 #: notebook/templates/notebook.html:197
 msgid "Run all cells in the notebook"

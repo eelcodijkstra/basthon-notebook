@@ -256,12 +256,12 @@ msgstr "exécuter la cellule, sélectionner la suivante"
 #: notebook/static/notebook/js/actions.js:159
 #: notebook/static/notebook/js/actions.js:160
 msgid "run selected cells"
-msgstr "exécuter les cellules sélectionnées"
+msgstr "voer de geselecteerde cellen uit"
 
 #: notebook/static/notebook/js/actions.js:167
 #: notebook/static/notebook/js/actions.js:168
 msgid "run cell and insert below"
-msgstr "exécuter la cellule et insérer après"
+msgstr "voer de cel uit en voeg daaronder in"
 
 #: notebook/static/notebook/js/actions.js:175
 #: notebook/static/notebook/js/actions.js:176
@@ -368,12 +368,12 @@ msgstr "plak de cellen onder"
 #: notebook/static/notebook/js/actions.js:344
 #: notebook/static/notebook/js/actions.js:345
 msgid "insert cell above"
-msgstr "insérer une cellule avant"
+msgstr "voeg een cel hierboven in"
 
 #: notebook/static/notebook/js/actions.js:354
 #: notebook/static/notebook/js/actions.js:355
 msgid "insert cell below"
-msgstr "insérer une cellule après"
+msgstr "voeg een cel hieronder in"
 
 #: notebook/static/notebook/js/actions.js:365
 #: notebook/static/notebook/js/actions.js:366
