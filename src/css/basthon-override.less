@@ -18,6 +18,16 @@ body {
   margin: auto;
 }
 
+/* img are inline blocks by default */
+.output_png > img {
+  display: block;
+}
+
+.output_svg > * {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 div.output_area .rendered_html :is(table, img) {
   margin: auto;
 }
@@ -265,6 +275,10 @@ div.output_area
   color: var(--btn-default-hover-color);
   background-color: var(--btn-default-bg-hover-color);
   border-color: var(--btn-default-border-hover-color);
+}
+
+div.output_area .animation {
+  display: block;
 }
 
 a.list-group-item,
